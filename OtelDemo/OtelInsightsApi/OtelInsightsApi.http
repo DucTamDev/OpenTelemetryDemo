@@ -1,0 +1,6 @@
+@OtelInsightsApi_HostAddress = http://localhost:5164
+
+GET {{OtelInsightsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+@OtelProductApi_HostAddress = http://localhost:5272
+
+GET {{OtelProductApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{OtelProductApi_HostAddress}}/api/product/all
+Accept: application/json
+
+###
